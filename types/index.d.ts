@@ -39,7 +39,7 @@ interface Feedback {
   }
   
   interface InterviewCardProps {
-    id?: string;
+    interviewId?: string;
     userId?: string;
     role: string;
     type: string;
